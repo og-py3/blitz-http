@@ -1,13 +1,12 @@
 # blitz ⚡
 
-[![PyPI version](https://img.shields.io/pypi/v/blitz-http?color=brightgreen&logo=pypi&logoColor=white)](https://pypi.org/project/blitz-http/)
-[![PyPI downloads](https://img.shields.io/pypi/dm/blitz-http?color=blue&logo=pypi&logoColor=white)](https://pypi.org/project/blitz-http/)
-[![Python versions](https://img.shields.io/pypi/pyversions/blitz-http?logo=python&logoColor=white)](https://pypi.org/project/blitz-http/)
+[![PyPI version](https://img.shields.io/pypi/v/blitz-http.svg?color=brightgreen&logo=pypi&logoColor=white)](https://pypi.org/project/blitz-http/)
+[![Python versions](https://img.shields.io/badge/python-3.10%20%7C%203.11%20%7C%203.12-blue?logo=python&logoColor=white)](https://pypi.org/project/blitz-http/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Tests](https://img.shields.io/badge/tests-89%20passed-brightgreen?logo=pytest&logoColor=white)](#running-tests)
-[![Async](https://img.shields.io/badge/async-uvloop%20%2B%20asyncio-purple?logo=python&logoColor=white)](https://github.com/MagicStack/uvloop)
-[![HTTP/2](https://img.shields.io/badge/HTTP%2F2-supported-blue?logo=http&logoColor=white)](https://httpx.tiangolo.com/)
-[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Async](https://img.shields.io/badge/async-uvloop%20%2B%20asyncio-8A2BE2?logo=python&logoColor=white)](https://github.com/MagicStack/uvloop)
+[![HTTP/2](https://img.shields.io/badge/HTTP%2F2-supported-0078d7)](https://httpx.tiangolo.com/)
+[![install](https://img.shields.io/badge/pip%20install-blitz--http-orange?logo=pypi&logoColor=white)](https://pypi.org/project/blitz-http/)
 
 > A high-performance async HTTP client library that rivals Go's `net/http` in raw throughput, concurrency, and reliability — written in pure Python.
 
