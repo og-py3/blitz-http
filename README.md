@@ -1,6 +1,29 @@
 # blitz ⚡
 
+[![PyPI version](https://img.shields.io/pypi/v/blitz-http?color=brightgreen&logo=pypi&logoColor=white)](https://pypi.org/project/blitz-http/)
+[![PyPI downloads](https://img.shields.io/pypi/dm/blitz-http?color=blue&logo=pypi&logoColor=white)](https://pypi.org/project/blitz-http/)
+[![Python versions](https://img.shields.io/pypi/pyversions/blitz-http?logo=python&logoColor=white)](https://pypi.org/project/blitz-http/)
+[![License: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Tests](https://img.shields.io/badge/tests-89%20passed-brightgreen?logo=pytest&logoColor=white)](#running-tests)
+[![Async](https://img.shields.io/badge/async-uvloop%20%2B%20asyncio-purple?logo=python&logoColor=white)](https://github.com/MagicStack/uvloop)
+[![HTTP/2](https://img.shields.io/badge/HTTP%2F2-supported-blue?logo=http&logoColor=white)](https://httpx.tiangolo.com/)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
 > A high-performance async HTTP client library that rivals Go's `net/http` in raw throughput, concurrency, and reliability — written in pure Python.
+
+---
+
+## Install
+
+```bash
+pip install blitz-http
+```
+
+For maximum performance on Linux/macOS (adds uvloop C event loop):
+
+```bash
+pip install "blitz-http[uvloop]"
+```
 
 ---
 
